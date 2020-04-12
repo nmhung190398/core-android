@@ -4,11 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Login extends AppCompatActivity {
+import com.nmhung.coreanroid.R;
+
+public class Login extends BaseActivity {
+
+    public Login() {
+        super(R.layout.activity_login);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+
     }
 }
